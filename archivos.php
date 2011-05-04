@@ -56,6 +56,7 @@
      }
      table {
         width:100%;
+        border-spacing:10px;
      }
 
      /*icons for file types (add more to suit your needs - icons by famfamfam.)*/
