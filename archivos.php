@@ -54,6 +54,9 @@
          font-weight:bold;
          padding:0 0 10px 10px;
      }
+     table {
+        width:100%;
+     }
 
      /*icons for file types (add more to suit your needs - icons by famfamfam.)*/
 
@@ -124,7 +127,7 @@
 
          // print 'em
          print("<h1>Contenido</h1>");
-         print("<table width='100%' cellspacing='10'>
+         print("<table>
                  <tr>
                    <td class='head'>Archivo</td>
                    <td class='head'>Tipo</td>
