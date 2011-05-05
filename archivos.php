@@ -108,6 +108,9 @@
            $dirArray[] = $entryName;
          } // while
 
+         // closes directory
+         closedir($myDirectory);
+
          // finds extention of file
          function findexts ($filename){
            $filename = strtolower($filename) ;
@@ -116,9 +119,6 @@
            $exts = $exts[$n];
            return $exts;
          } // findexts
-
-         // closes directory
-         closedir($myDirectory);
 
          //  counts elements in array
          $indexCount = count($dirArray);
